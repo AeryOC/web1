@@ -1,8 +1,8 @@
 let img1;
 
-function preload(){
-    img1 = loadImage("../../media/sig.png");
-}
+//function preload(){
+    //img1 = loadImage("../../media/sig.png"); unnecessary
+//}
 function setup(){
     createCanvas(400,800);
     noStroke();
@@ -11,7 +11,7 @@ function setup(){
   function draw(){
     background(21);
       fill(162,214,216,90);
-      img1(0,0);
+      //img1(0,0); breaks code
       
     if (mouseX <= width/8) {
       rect(0,0,width/8,height);         //1/8
