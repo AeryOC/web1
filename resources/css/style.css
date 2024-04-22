@@ -1,0 +1,27 @@
+html, body{
+
+    background-image: url(../media/background.jpeg);
+
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* this is how to do a CSS comment, this line is for font */
+    font-size:35px;
+    text-align: center;
+    word-spacing: 10%;
+    letter-spacing: .2em; /* em is current fontsize, 1em=current size, unit of measurement */
+    line-height:2                                                                                                 em;
+}
+
+#processing{ /* this references the processing section in index.html only */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    padding: 10px;
+    border: 10px dashed rgb(21, 49, 150);
+
+    
+}
+
+img{
+    padding: 10%;
+    border: 3px dotted;
+    margin: 10px;
+}
